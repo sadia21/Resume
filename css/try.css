@@ -101,6 +101,24 @@ body
     width: 100%;
     
 }
+.wrapper-projects
+{
+    display:flexbox;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows:auto;
+    justify-self: start;
+    padding-top: 30px;
+    width: 100%;
+    
+}
+.wrapper-projects > div
+{
+    background:azure;
+    padding:1em;
+    justify-items: start;
+    
+}
 .expertise img
 {
     height: 5%;
